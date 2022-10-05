@@ -16,8 +16,8 @@ double k2 = double.Parse(Console.ReadLine()!);
 double x = (b2 - b1) / (k1 - k2);
 double y = (k1 * x) + b1;
  
-x = Math.Round(x, 3);
-y = Math.Round(y, 3);
+x = Math.Round(x, 2);
+y = Math.Round(y, 2);
  
 Console.WriteLine($"Пересечение линий в точке: ({x};{y})");
 
