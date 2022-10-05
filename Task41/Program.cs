@@ -14,7 +14,7 @@ void FillArray(double[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write($"Введите число {i+1}: ");
+        Console.Write($"Введите любое число {i+1}: ");
         arr[i] = Convert.ToDouble(Console.ReadLine());
     }
 }
